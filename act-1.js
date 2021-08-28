@@ -4,8 +4,9 @@ let path=require("path");
 let inputArr=process.argv.slice(2);
 let inputDir=inputArr[0];
 console.log(inputArr);
+console.log(inputDir);
 let allEntities=fs.readdirSync(inputDir);
-// console.log(allEntities);
+console.log(allEntities);
 
 content="";
 for(let i=0;i<allEntities.length;i++){
